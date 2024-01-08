@@ -1,0 +1,83 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 18,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.unicodeHighlight.includeStrings": true,
+  "editor.suggestSelection": "first",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.cursorStyle": "line",
+  "editor.formatOnSave": true,
+  "editor.rulers": [100, 100],
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.startupEditor": "none",
+  "github-enterprise.uri": "https://github.com/heitorthewizard",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "workbench.colorCustomizations": {
+    "editor.background": "#090909",
+    "terminal.background": "#090909"
+  },
+  "workbench.editor.showTabs": "single",
+  "editor.inlineSuggest.enabled": true,
+  "git.suggestSmartCommit": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  // "terminal.integrated.profiles.windows": {
+  //   "Git Bash": {
+  //     "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+  //   },
+  // },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "window.menuBarVisibility": "visible",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "terminal.explorerKind": "external",
+  "extensions.ignoreRecommendations": true,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Dracula",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.openRepositoryInParentFolders": "never",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 100,
+  "editor.wordWrap": "off",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "workbench.panel.opensMaximized": "always"
+}
