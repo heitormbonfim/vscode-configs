@@ -2,7 +2,7 @@
   "editor.bracketPairColorization.enabled": true,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontSize": 14,
   "editor.fontSize": 16,
@@ -13,9 +13,18 @@
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.cursorStyle": "line",
   "editor.formatOnSave": true,
-  "editor.rulers": [100, 100],
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "none",
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "all",
+  "editor.fontLigatures": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": false,
+  "explorer.openEditors.sortOrder": "editorOrder",
   "github-enterprise.uri": "https://github.com/heitorthewizard",
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
@@ -30,17 +39,8 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.tabSize": 2,
   "editor.fontFamily": "Consolas, 'Courier New', monospace",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  // "terminal.integrated.profiles.windows": {
-  //   "Git Bash": {
-  //     "path": "C:\\Program Files\\Git\\bin\\bash.exe"
-  //   },
-  // },
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "window.menuBarVisibility": "visible",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -52,8 +52,10 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "diffEditor.ignoreTrimWhitespace": false,
   "git.openRepositoryInParentFolders": "never",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -67,7 +69,7 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.printWidth": 100,
+  "prettier.printWidth": 80,
   "editor.wordWrap": "off",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -79,5 +81,11 @@
     "*.db": "sqlite-viewer.option"
   },
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "workbench.panel.opensMaximized": "always"
+  "workbench.panel.opensMaximized": "always",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "svelte.enable-ts-plugin": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "symbols.hidesExplorerArrows": false
 }
