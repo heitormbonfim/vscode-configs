@@ -13,25 +13,22 @@
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.cursorStyle": "line",
   "editor.formatOnSave": true,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [100],
   "editor.renderLineHighlight": "all",
   "editor.fontLigatures": true,
   "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.vertical": "auto",
   "explorer.compactFolders": false,
   "breadcrumbs.enabled": false,
-  "workbench.editor.labelFormat": "short",
+  "workbench.editor.labelFormat": "default",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.location": "top",
   "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "left",
   "explorer.openEditors.sortOrder": "editorOrder",
   "github-enterprise.uri": "https://github.com/heitorthewizard",
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
-  },
-  "workbench.colorCustomizations": {
-    "editor.background": "#090909",
-    "terminal.background": "#090909"
   },
   "workbench.editor.showTabs": "single",
   "editor.inlineSuggest.enabled": true,
@@ -40,7 +37,6 @@
   "editor.tabSize": 2,
   "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "terminal.integrated.enableMultiLinePasteWarning": "auto",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -48,7 +44,8 @@
   "terminal.explorerKind": "external",
   "extensions.ignoreRecommendations": true,
   "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Dracula",
+  "editor.minimap.size": "fill",
+  "workbench.colorTheme": "GitHub Dark Default",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "diffEditor.ignoreTrimWhitespace": false,
   "git.openRepositoryInParentFolders": "never",
@@ -69,8 +66,8 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.printWidth": 80,
-  "editor.wordWrap": "off",
+  "prettier.printWidth": 100,
+  "editor.wordWrap": "on",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -86,6 +83,6 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "svelte.enable-ts-plugin": true,
-  "workbench.productIconTheme": "fluent-icons",
-  "symbols.hidesExplorerArrows": false
+  "symbols.hidesExplorerArrows": false,
+  "workbench.productIconTheme": "fluent-icons"
 }
