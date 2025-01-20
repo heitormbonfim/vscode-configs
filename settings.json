@@ -1,11 +1,12 @@
 {
   "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "workbench.iconTheme": "symbols",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontSize": 14,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.lineHeight": 18,
   "editor.semanticHighlighting.enabled": true,
   "editor.unicodeHighlight.includeStrings": true,
@@ -13,16 +14,15 @@
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.cursorStyle": "line",
   "editor.formatOnSave": true,
-  "editor.rulers": [100],
+  "editor.rulers": [110],
   "editor.renderLineHighlight": "all",
   "editor.fontLigatures": true,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "visible",
+  "editor.scrollbar.vertical": "visible",
   "explorer.compactFolders": false,
   "breadcrumbs.enabled": false,
   "workbench.editor.labelFormat": "default",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.activityBar.location": "top",
   "workbench.statusBar.visible": false,
   "workbench.sideBar.location": "left",
   "explorer.openEditors.sortOrder": "editorOrder",
@@ -45,7 +45,6 @@
   "extensions.ignoreRecommendations": true,
   "editor.minimap.enabled": false,
   "editor.minimap.size": "fill",
-  "workbench.colorTheme": "GitHub Dark Default",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "diffEditor.ignoreTrimWhitespace": false,
   "git.openRepositoryInParentFolders": "never",
@@ -82,7 +81,17 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "svelte.enable-ts-plugin": true,
   "symbols.hidesExplorerArrows": false,
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.productIconTheme": "fluent-icons",
+  "window.customTitleBarVisibility": "auto",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Emerald",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "javascript.preferences.importModuleSpecifierEnding": "js"
 }
