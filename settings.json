@@ -83,7 +83,11 @@
   },
   "symbols.hidesExplorerArrows": false,
   "workbench.productIconTheme": "fluent-icons",
-  "window.customTitleBarVisibility": "auto",
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "custom",
+  "window.restoreFullscreen": true,
+  "window.newWindowDimensions": "fullscreen",
+  "zenMode.fullScreen": true,
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -92,6 +96,9 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.preferences.importModuleSpecifierEnding": "js",
-  "javascript.preferences.importModuleSpecifierEnding": "js"
+  "typescript.preferences.importModuleSpecifierEnding": "auto",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "redhat.telemetry.enabled": true,
+  "editor.inlineSuggest.suppressSuggestions": true
 }
