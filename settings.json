@@ -3,30 +3,30 @@
   "editor.guides.bracketPairs": "active",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "workbench.iconTheme": "symbols",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontSize": 14,
   "editor.fontSize": 18,
-  "editor.lineHeight": 18,
+  "editor.lineHeight": 32,
   "editor.semanticHighlighting.enabled": true,
   "editor.unicodeHighlight.includeStrings": true,
   "editor.suggestSelection": "first",
-  "editor.cursorSmoothCaretAnimation": "off",
-  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "explicit",
   "editor.formatOnSave": true,
-  "editor.rulers": [110],
+  "editor.rulers": [96],
   "editor.renderLineHighlight": "all",
   "editor.fontLigatures": true,
   "editor.scrollbar.horizontal": "visible",
   "editor.scrollbar.vertical": "visible",
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.defaultModel": "foldingProviderModel",
+  "editor.stickyScroll.maxLineCount": 5,
   "explorer.compactFolders": false,
-  "breadcrumbs.enabled": false,
   "workbench.editor.labelFormat": "default",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": false,
   "workbench.sideBar.location": "left",
   "explorer.openEditors.sortOrder": "editorOrder",
-  "github-enterprise.uri": "https://github.com/heitorthewizard",
+  "github-enterprise.uri": "https://github.com/heitormbonfim",
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
   },
@@ -53,6 +53,7 @@
     "editor.tabSize": 4,
     "editor.indentSize": "tabSize"
   },
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -74,24 +75,25 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.editorAssociations": {
-    "*.db": "sqlite-viewer.option"
+    "{hexdiff}:/**/*.*": "hexEditor.hexedit",
+    "*.db": "sqlite-viewer.option",
+    "*.md": "vscode.markdown.preview.editor",
+    "*.bin": "hexEditor.hexedit"
   },
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "workbench.panel.opensMaximized": "always",
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "symbols.hidesExplorerArrows": false,
-  "workbench.productIconTheme": "fluent-icons",
   "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "custom",
   "window.restoreFullscreen": true,
-  "window.newWindowDimensions": "fullscreen",
+  "window.newWindowDimensions": "maximized",
   "zenMode.fullScreen": true,
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Emerald",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "git.autofetch": true,
   "git.confirmSync": false,
@@ -100,5 +102,23 @@
   "javascript.preferences.importModuleSpecifier": "relative",
   "javascript.preferences.importModuleSpecifierEnding": "js",
   "redhat.telemetry.enabled": true,
-  "editor.inlineSuggest.suppressSuggestions": true
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.colorTheme": "Emerald",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols",
+  "editor.linkedEditing": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/Heitor/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "terminal.integrated.env.windows": {},
+  "editor.cursorBlinking": "expand",
+  "editor.overtypeCursorStyle": "line",
+  "editor.cursorWidth": 4,
+  "console-ninja.featureSet": "Community"
 }
