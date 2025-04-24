@@ -12,14 +12,14 @@
   "editor.suggestSelection": "first",
   "editor.cursorSmoothCaretAnimation": "explicit",
   "editor.formatOnSave": true,
-  "editor.rulers": [96],
+  "editor.rulers": [82],
   "editor.renderLineHighlight": "all",
   "editor.fontLigatures": true,
   "editor.scrollbar.horizontal": "visible",
   "editor.scrollbar.vertical": "visible",
   "editor.stickyScroll.enabled": true,
   "editor.stickyScroll.defaultModel": "foldingProviderModel",
-  "editor.stickyScroll.maxLineCount": 5,
+  "editor.stickyScroll.maxLineCount": 10,
   "explorer.compactFolders": false,
   "workbench.editor.labelFormat": "default",
   "workbench.startupEditor": "newUntitledFile",
@@ -66,7 +66,7 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.printWidth": 100,
+  "prettier.printWidth": 82,
   "editor.wordWrap": "on",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -106,7 +106,7 @@
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
-  "workbench.colorTheme": "Emerald",
+  "terminal.integrated.shellIntegration.enabled": true,
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
   "editor.linkedEditing": true,
@@ -117,8 +117,15 @@
     "file:///c:/Users/Heitor/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
   "terminal.integrated.env.windows": {},
+
   "editor.cursorBlinking": "expand",
   "editor.overtypeCursorStyle": "line",
   "editor.cursorWidth": 4,
-  "console-ninja.featureSet": "Community"
+  "terminal.integrated.suggest.enabled": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.colorCustomizations": {
+    "editor.background": "#171720",
+    "terminal.background": "#171720"
+  }
 }
