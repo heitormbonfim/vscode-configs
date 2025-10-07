@@ -4,26 +4,25 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.fontSize": 14,
-  "editor.fontSize": 18,
-  "editor.lineHeight": 32,
+  "terminal.integrated.fontSize": 12,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 0,
   "editor.semanticHighlighting.enabled": true,
   "editor.unicodeHighlight.includeStrings": true,
   "editor.suggestSelection": "first",
   "editor.cursorSmoothCaretAnimation": "explicit",
   "editor.formatOnSave": true,
-  "editor.rulers": [82],
+  "editor.rulers": [92],
   "editor.renderLineHighlight": "all",
   "editor.fontLigatures": true,
   "editor.scrollbar.horizontal": "visible",
   "editor.scrollbar.vertical": "visible",
   "editor.stickyScroll.enabled": true,
   "editor.stickyScroll.defaultModel": "foldingProviderModel",
-  "editor.stickyScroll.maxLineCount": 2, // Increase to make it easer to see
+  "editor.stickyScroll.maxLineCount": 2,
   "explorer.compactFolders": false,
   "workbench.editor.labelFormat": "default",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.sideBar.location": "right",
   "explorer.openEditors.sortOrder": "alphabetical",
   "github-enterprise.uri": "https://github.com/heitormbonfim",
   "gitlens.advanced.messages": {
@@ -86,7 +85,7 @@
   },
   "symbols.hidesExplorerArrows": false,
   "window.titleBarStyle": "custom",
-  // "window.restoreFullscreen": true,
+  "window.restoreFullscreen": true,
   "window.newWindowDimensions": "inherit",
   // "zenMode.fullScreen": true,
   "[vue]": {
@@ -121,7 +120,6 @@
   "editor.cursorWidth": 4,
   "terminal.integrated.suggest.enabled": true,
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "workbench.colorTheme": "Cursor Dark Midnight",
   "docker.extension.dockerEngineAvailabilityPrompt": false,
   "window.zoomLevel": 0,
   "docker.extension.enableComposeLanguageServer": false,
@@ -130,6 +128,13 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
+  "go.inlayHints.parameterNames": false,
+  "go.inlayHints.assignVariableTypes": false,
+  "go.inlayHints.compositeLiteralFields": false,
+  "go.inlayHints.compositeLiteralTypes": false,
+  "go.inlayHints.constantValues": false,
+  "go.inlayHints.functionTypeParameters": false,
+  "go.inlayHints.rangeVariableTypes": false,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
     "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
@@ -146,12 +151,6 @@
   },
   "github.copilot.selectedCompletionModel": "",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
   "[jinja-html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -159,5 +158,31 @@
     "source.organizeImports": "always",
     "source.addMissingImports": "always"
   },
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "makefile.configureOnOpen": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "workbench.colorTheme": "Omni",
+  "python.analysis.typeCheckingMode": "standard"
 }
